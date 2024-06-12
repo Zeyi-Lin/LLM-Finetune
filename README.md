@@ -1,5 +1,7 @@
 # LLM Finetune
 
+实验细节看：[![swanlab](https://img.shields.io/badge/Qwen2%20指令微调-SwanLab-438440)](https://swanlab.cn/@ZeyiLin/Qwen2-fintune/runs/cfg5f8dzkp6vouxzaxlx6/chart)
+
 ## 准备工作
 
 安装环境：`pip install -r requirements.txt`
@@ -8,5 +10,5 @@
 
 ## 训练
 
-- qwen2-1.5b指令微调：`python train_qwen2.py`
-- glm4-9b指令微调：`python train_glm4.py`
+- qwen2-1.5b 指令微调：`python train_qwen2.py`
+- glm4-9b 指令微调：`python train_glm4.py`
