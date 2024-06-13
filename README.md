@@ -10,5 +10,7 @@
 
 ## 训练
 
-- qwen2-1.5b 指令微调：`python train_qwen2.py`，或跟随`train_qwen2.ipynb`
-- glm4-9b 指令微调：`python train_glm4.py`
+| 模型       | 任务              | 运行命令                                           | 文章                                                         |
+| ---------- | ----------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| Qwen2-1.5b | 指令微调-文本分类 | `python train_qwen2.py`，或跟随`train_qwen2.ipynb` | [Qwen2 指令微调实战](https://zhuanlan.zhihu.com/p/702491999) |
+| GLM4-9b    | 指令微调-文本分类 | `python train_glm4.py`                             | [GLM4 指令微调实战](https://zhuanlan.zhihu.com/p/702608991)  |
