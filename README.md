@@ -10,5 +10,5 @@
 
 ## 训练
 
-- qwen2-1.5b 指令微调：`python train_qwen2.py`
-- glm4-9b 指令微调：`python train_glm4.py`，或跟随`train_qwen2.ipynb`
+- qwen2-1.5b 指令微调：`python train_qwen2.py`，或跟随`train_qwen2.ipynb`
+- glm4-9b 指令微调：`python train_glm4.py`
