@@ -18,3 +18,11 @@
 | Qwen2-1.5b    | 指令微调-命名实体识别 | `python train_qwen2_ner.py` | waiting  |
 | GLM4-9b    | 指令微调-文本分类 | `python train_glm4.py`，，或跟随[Jupyter Notebook](notebook/train_glm4.ipynb) | [GLM4 指令微调实战](https://zhuanlan.zhihu.com/p/702608991)  |
 
+
+## 推理
+
+Qwen2系列：
+
+```bash
+python predict_qwen2.py
+```
