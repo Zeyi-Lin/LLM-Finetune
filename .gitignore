@@ -4,3 +4,4 @@
 /*.jsonl
 /._____temp
 /.ipynb_checkpoints
+.DS_Store
