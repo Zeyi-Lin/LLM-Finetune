@@ -108,7 +108,7 @@ def predict(messages, model, tokenizer):
 model_id = "ZhipuAI/glm-4-9b-chat"    
 model_dir = "./ZhipuAI/glm-4-9b-chat/"
 
-# 在modelscope上下载Qwen模型到本地目录下
+# 在modelscope上下载GLM4模型到本地目录下
 model_dir = snapshot_download(model_id, cache_dir="./", revision="master")
 
 # Transformers加载模型权重
