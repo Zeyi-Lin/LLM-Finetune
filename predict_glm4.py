@@ -16,11 +16,11 @@ def predict(messages, model, tokenizer):
     return response
 
 # 加载原下载路径的tokenizer
-tokenizer = AutoTokenizer.from_pretrained("./qwen/Qwen2-1___5B-Instruct/", use_fast=False, trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("./qwen/Qwen2-1___5B-Instruct/", device_map="auto", torch_dtype=torch.bfloat16)
+tokenizer = AutoTokenizer.from_pretrained("./ZhipuAI/glm-4-9b-chat/", use_fast=False, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("./ZhipuAI/glm-4-9b-chat/", device_map="auto", torch_dtype=torch.bfloat16)
 
 # 加载训练好的Lora模型，将下面的checkpoint-[XXX]替换为实际的checkpoint文件名名称
-model = PeftModel.from_pretrained(model, model_id="./output/Qwen2/checkpoint-1700")
+model = PeftModel.from_pretrained(model, model_id="./output/GLM4-9b/checkpoint-1700")
 
 test_texts = {
     'instruction': "你是一个文本分类领域的专家，你会接收到一段文本和几个潜在的分类选项，请输出文本内容的正确类型",

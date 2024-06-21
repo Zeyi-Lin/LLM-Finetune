@@ -26,3 +26,9 @@ Qwen2系列：
 ```bash
 python predict_qwen2.py
 ```
+
+GLM4系列：
+
+```bash
+python predict_glm4.py
+```
