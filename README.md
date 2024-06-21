@@ -17,6 +17,7 @@
 | Qwen2-1.5b | 指令微调-文本分类 | python train_qwen2.py | [Jupyter Notebook](notebook/train_qwen2.ipynb) | [知乎](https://zhuanlan.zhihu.com/p/702491999) |
 | Qwen2-1.5b    | 指令微调-命名实体识别 | python train_qwen2_ner.py | [Jupyter Notebook](notebook/train_qwen2_ner.ipynb) | [知乎](https://zhuanlan.zhihu.com/p/704463319)   |
 | GLM4-9b    | 指令微调-文本分类 | python train_glm4.py | [Jupyter Notebook](notebook/train_glm4.ipynb) | [知乎](https://zhuanlan.zhihu.com/p/702608991)  |
+| GLM4-9b    | 指令微调-命名实体识别 | python train_glm4_ner.py | [Jupyter Notebook](notebook/train_glm4_ner.ipynb) | waiting  |
 
 
 ## 推理
