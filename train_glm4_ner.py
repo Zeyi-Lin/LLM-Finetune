@@ -64,7 +64,7 @@ def process_func(example):
     system_prompt = """你是一个文本实体识别领域的专家，你需要从给定的句子中提取 地点; 人名; 地理实体; 组织 实体. 以 json 格式输出, 如 {"entity_text": "南京", "entity_label": "地理实体"} 注意: 1. 输出的每一行都必须是正确的 json 字符串. 2. 找不到任何实体时, 输出"没有找到任何实体"."""
     
     instruction = tokenizer(
-        f"<|im_start|>system\n{system_prompt}<|im_end|>\n<|im_start|>user\n{example['input']}<|im_end|>\n<|im_start|>assistant\n",
+        f"<|system|>\n{system_prompt}<|endoftext|>\n<|user|>\n{example['input']}<|endoftext|>\n<|assistant|>\n",
         add_special_tokens=False,
     )
     response = tokenizer(f"{example['output']}", add_special_tokens=False)
