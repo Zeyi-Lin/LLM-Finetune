@@ -6,7 +6,7 @@
 
 安装环境：`pip install -r requirements.txt`
 
-文本分类任务-数据集下载：在[huangjintao/zh_cls_fudan-news](https://modelscope.cn/datasets/huangjintao/zh_cls_fudan-news/files)下载`train.jsonl`和`test.jsonl`到根目录下。
+文本分类任务-数据集下载：在[huangjintao/zh_cls_fudan-news](https://modelscope.cn/datasets/swift/zh_cls_fudan-news/files)下载`train.jsonl`和`test.jsonl`到根目录下。
 
 命名实体识别任务-数据集下载：在[qgyd2021/chinese_ner_sft](https://huggingface.co/datasets/qgyd2021/chinese_ner_sft/tree/main/data)下载`ccfbdci.jsonl`到根目录下。
 
@@ -33,3 +33,7 @@ GLM4系列：
 ```bash
 python predict_glm4.py
 ```
+
+## 引用工具
+
+- [SwanLab](https://github.com/SwanHubX/SwanLab)：AI训练记录、分析与可视化工具
