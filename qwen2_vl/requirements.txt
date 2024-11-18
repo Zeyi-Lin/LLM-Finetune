@@ -1,0 +1,9 @@
+torch
+torchvision
+swanlab>=0.3.25
+modelscope>=1.18.0
+transformers>=4.46.2
+datasets
+peft>=0.13.2
+accelerate>=1.1.1
+qwen-vl-utils>=0.8.0
