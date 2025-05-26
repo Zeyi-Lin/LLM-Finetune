@@ -5,6 +5,11 @@
 [![swanlab](https://img.shields.io/badge/GLM4%20指令微调-SwanLab-438440)](https://swanlab.cn/@ZeyiLin/GLM4-fintune/runs/eabll3xug8orsxzjy4yu4/chart) 
 [![swanlab](https://img.shields.io/badge/Qwen2%20VL%20多模态微调-SwanLab-438440)](https://swanlab.cn/@ZeyiLin/Qwen2-VL-finetune/runs/pkgest5xhdn3ukpdy6kv5/chart)
 
+## News
+
+- [Qwen3-Medical-sft](https://github.com/Zeyi-Lin/Qwen3-Medical-SFT): Qwen3微调实战：医疗R1推理风格聊天
+
+
 ## 准备工作
 
 安装环境：`pip install -r requirements.txt`
